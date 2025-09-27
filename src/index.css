@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+/* active with NavLink */
+.active {
+  color: white;
+  background: #60a5fa;
+}
+
+/* scroll animated  */
+.animation {
+  animation: animated ease;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+}
+
+@keyframes animated {
+  from {
+    opacity: 0;
+    scale: 0;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+/* btn animated */
+.btn-anmi {
+  cursor: pointer;
+  z-index: 5;
+  transition: all 0.4s linear;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-anmi::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  padding: 50%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: translate3d(-50%, -50%, 0) scale(0);
+  transition: all 0.4s linear;
+}
+
+.btn-anmi:hover::before {
+  transform: translate3d(-50%, -50%, 0) scale(1.5);
+}
+
+/* animate-logo */
+
+.rotate-logo {
+  width: 100%;
+  height: 100%;
+  border: 4px solid;
+  border-color: #00264e #60a5fa #00264e #60a5fa;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  animation: rotate-logo 3s linear infinite;
+}
+
+@keyframes rotate-logo {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* animate-up */
+
+.animate-up {
+  animation: up 2s linear infinite;
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes up {
+  0% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(10px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  75% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* animate-down */
+.animate-down {
+  animation: down 2s linear infinite;
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes down {
+  0% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(-10px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  75% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
