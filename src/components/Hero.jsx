@@ -21,12 +21,12 @@ const Hero = () => {
             I'm a <span className="text-blue-400">Front-End</span> Developer 💻
           </p>
           <div className="flex flex-col md:flex-row gap-5 mt-8 mx-[auto] lg:mx-[0_0] w-[fit-content]">
-            <button
-              onClick={() => alert("cv not fount")}
+            <a href="/CV.pdf" 
+            target="_blank"
               className="cursor-pointer px-3 py-1 animate-up bg-blue-400 text-xl capitalize rounded-2xl border-2 border-blue-400 text-white font-semibold hover:bg-amber-50 hover:text-blue-400 transition-all duration-[.3s]"
             >
               Download cv
-            </button>
+            </a>
             <Link
               to="/projects"
               className="animate-down px-3 py-1 bg-blue-400 text-xl capitalize rounded-2xl border-2 border-blue-400 text-white font-semibold hover:bg-amber-50 hover:text-blue-400 transition-all duration-[.3s]"

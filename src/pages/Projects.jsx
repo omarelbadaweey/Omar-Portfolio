@@ -519,14 +519,14 @@ function Projects() {
                     <a
                       href={project.git}
                       target="_blank"
-                      className=" border-2 w-[60%] md:w-[45%] px-2 py-0.5 rounded-3xl bg-amber-500 text-amber-50 capitalize flex items-center gap-2"
+                      className=" border-3 w-[60%] md:w-[45%] px-2 py-0.5 rounded-3xl text-blue-500 bg-amber-100 capitalize flex items-center gap-2"
                     >
                       <FaGithub /> git hub
                     </a>
                     <a
                       href={project.link}
                       target="_blank"
-                      className="px-2 py-0.5 w-[60%] md:w-[45%] rounded-3xl border-2 bg-red-700 text-amber-50 capitalize flex items-center gap-2"
+                      className="px-2 py-0.5 w-[60%] md:w-[45%] rounded-3xl border-2 bg-blue-500 text-white capitalize flex items-center gap-2"
                     >
                       {" "}
                       <MdOutlineLiveTv />
