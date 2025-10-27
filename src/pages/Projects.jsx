@@ -450,6 +450,201 @@ const projectsData = [
       },
     ],
   },
+  {
+    id: 15,
+    title: "Api-Ai-Project",
+    category: "React",
+    link: "https://api-ai-project.vercel.app/",
+    git: "https://github.com/omarelbadaweey/Api-Ai-Project",
+    languages: [
+      {
+        icon: <FaHtml5 />,
+        lang: "html",
+        color: "text-red-400",
+        hover: "hover:text-red-400",
+      },
+      {
+        icon: <FaCss3Alt />,
+        lang: "css",
+        color: "text-blue-500",
+        hover: "hover:text-blue-500",
+      },
+      {
+        icon: <RiTailwindCssFill />,
+        lang: "tailwind",
+        color: "text-sky-400",
+        hover: "hover:text-sky-400",
+      },
+      {
+        icon: <IoLogoJavascript />,
+        lang: "java script ",
+        color: "text-yellow-400",
+        hover: "hover:text-yellow-400",
+      },
+      {
+        icon: <FaReact />,
+        lang: "React js ",
+        color: "text-blue-700",
+        hover: "hover:text-blue-700",
+      },
+    ],
+  },
+  {
+    id: 16,
+    title: "Task-Manager",
+    category: "React",
+    link: "https://task-manager-five-dusky.vercel.app/",
+    git: "https://github.com/omarelbadaweey/Task-Manager",
+    languages: [
+      {
+        icon: <FaHtml5 />,
+        lang: "html",
+        color: "text-red-400",
+        hover: "hover:text-red-400",
+      },
+      {
+        icon: <FaCss3Alt />,
+        lang: "css",
+        color: "text-blue-500",
+        hover: "hover:text-blue-500",
+      },
+      {
+        icon: <RiTailwindCssFill />,
+        lang: "tailwind",
+        color: "text-sky-400",
+        hover: "hover:text-sky-400",
+      },
+      {
+        icon: <IoLogoJavascript />,
+        lang: "java script ",
+        color: "text-yellow-400",
+        hover: "hover:text-yellow-400",
+      },
+      {
+        icon: <FaReact />,
+        lang: "React js ",
+        color: "text-blue-700",
+        hover: "hover:text-blue-700",
+      },
+    ],
+  },
+  {
+    id: 17,
+    title: "American-council",
+    category: "React",
+    link: "https://american-council.vercel.app/",
+    git: "https://github.com/omarelbadaweey/american-council",
+    languages: [
+      {
+        icon: <FaHtml5 />,
+        lang: "html",
+        color: "text-red-400",
+        hover: "hover:text-red-400",
+      },
+      {
+        icon: <FaCss3Alt />,
+        lang: "css",
+        color: "text-blue-500",
+        hover: "hover:text-blue-500",
+      },
+      {
+        icon: <RiTailwindCssFill />,
+        lang: "tailwind",
+        color: "text-sky-400",
+        hover: "hover:text-sky-400",
+      },
+      {
+        icon: <IoLogoJavascript />,
+        lang: "java script ",
+        color: "text-yellow-400",
+        hover: "hover:text-yellow-400",
+      },
+      {
+        icon: <FaReact />,
+        lang: "React js ",
+        color: "text-blue-700",
+        hover: "hover:text-blue-700",
+      },
+    ],
+  },
+  {
+    id: 18,
+    title: "Alekhlass",
+    category: "React",
+    link: "https://www.alekhllass.com/",
+    git: "https://github.com/omarelbadaweey/Alekhlass",
+    languages: [
+      {
+        icon: <FaHtml5 />,
+        lang: "html",
+        color: "text-red-400",
+        hover: "hover:text-red-400",
+      },
+      {
+        icon: <FaCss3Alt />,
+        lang: "css",
+        color: "text-blue-500",
+        hover: "hover:text-blue-500",
+      },
+      {
+        icon: <RiTailwindCssFill />,
+        lang: "tailwind",
+        color: "text-sky-400",
+        hover: "hover:text-sky-400",
+      },
+      {
+        icon: <IoLogoJavascript />,
+        lang: "java script ",
+        color: "text-yellow-400",
+        hover: "hover:text-yellow-400",
+      },
+      {
+        icon: <FaReact />,
+        lang: "React js ",
+        color: "text-blue-700",
+        hover: "hover:text-blue-700",
+      },
+    ],
+  },
+  {
+    id: 19,
+    title: "ceme-utv",
+    category: "React",
+    link: "https://ceme-utv.vercel.app/",
+    git: "https://github.com/omarelbadaweey/ceme-utv",
+    languages: [
+      {
+        icon: <FaHtml5 />,
+        lang: "html",
+        color: "text-red-400",
+        hover: "hover:text-red-400",
+      },
+      {
+        icon: <FaCss3Alt />,
+        lang: "css",
+        color: "text-blue-500",
+        hover: "hover:text-blue-500",
+      },
+      {
+        icon: <RiTailwindCssFill />,
+        lang: "tailwind",
+        color: "text-sky-400",
+        hover: "hover:text-sky-400",
+      },
+      {
+        icon: <IoLogoJavascript />,
+        lang: "java script ",
+        color: "text-yellow-400",
+        hover: "hover:text-yellow-400",
+      },
+      {
+        icon: <FaReact />,
+        lang: "React js ",
+        color: "text-blue-700",
+        hover: "hover:text-blue-700",
+      },
+    ],
+  },
 ];
 
 const categories = ["All", "CSS", "JS", "React"];
@@ -519,7 +714,7 @@ function Projects() {
                     <a
                       href={project.git}
                       target="_blank"
-                      className=" border-3 w-[60%] md:w-[45%] px-2 py-0.5 rounded-3xl text-blue-500 bg-amber-100 capitalize flex items-center gap-2"
+                      className=" border-3 w-[60%] md:w-[45%] px-2 py-0.5 rounded-3xl text-blue-500 bg-white capitalize flex items-center gap-2"
                     >
                       <FaGithub /> git hub
                     </a>
