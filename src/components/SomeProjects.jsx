@@ -183,7 +183,7 @@ function SomeProjects() {
                     <a
                       href={project.git}
                       target="_blank"
-                      className="border-3 w-[60%] md:w-[45%] px-2 py-0.5 rounded-3xl text-blue-500 bg-amber-100 capitalize flex items-center gap-2"
+                      className="border-3 w-[60%] md:w-[45%] px-2 py-0.5 rounded-3xl text-blue-500 bg-white capitalize flex items-center gap-2"
                     >
                       <FaGithub /> git hub
                     </a>

@@ -567,8 +567,47 @@ const projectsData = [
       },
     ],
   },
-  {
+    {
     id: 18,
+    title: "orange-store",
+    category: "React",
+    link: "https://orange-store-theta.vercel.app/",
+    git: "https://github.com/omarelbadaweey/Orange_Store",
+    languages: [
+      {
+        icon: <FaHtml5 />,
+        lang: "html",
+        color: "text-red-400",
+        hover: "hover:text-red-400",
+      },
+      {
+        icon: <FaCss3Alt />,
+        lang: "css",
+        color: "text-blue-500",
+        hover: "hover:text-blue-500",
+      },
+      {
+        icon: <RiTailwindCssFill />,
+        lang: "tailwind",
+        color: "text-sky-400",
+        hover: "hover:text-sky-400",
+      },
+      {
+        icon: <IoLogoJavascript />,
+        lang: "java script ",
+        color: "text-yellow-400",
+        hover: "hover:text-yellow-400",
+      },
+      {
+        icon: <FaReact />,
+        lang: "React js ",
+        color: "text-blue-700",
+        hover: "hover:text-blue-700",
+      },
+    ],
+  },
+  {
+    id: 19,
     title: "Alekhlass",
     category: "React",
     link: "https://www.alekhllass.com/",
@@ -606,8 +645,9 @@ const projectsData = [
       },
     ],
   },
+
   {
-    id: 19,
+    id: 20,
     title: "ceme-utv",
     category: "React",
     link: "https://ceme-utv.vercel.app/",

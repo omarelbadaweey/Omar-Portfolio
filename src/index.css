@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+/* scrollbar */
+html{
+  scrollbar-color: #60a5fa transparent;
+}
 /* active with NavLink */
 .active {
   color: white;

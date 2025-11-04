@@ -8,7 +8,7 @@ import {
 
 function Header() {
   return (
-    <header className="fixed bottom-[-10px] left-[50%] rounded-2xl overflow-hidden border-3 translate-[-50%] w-[220px]  bg-amber-50 text-blue-400 shadow-lg z-50 ">
+    <header className="fixed bottom-[-10px] left-[50%] rounded-2xl overflow-hidden border-3 translate-[-50%] w-[220px]  bg-white text-blue-400 shadow-lg z-50 ">
       <nav>
         <ul className="flex justify-around items-center  h-[42px]  px-3">
           <NavLink

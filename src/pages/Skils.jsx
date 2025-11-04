@@ -9,8 +9,9 @@ import {
   FaGitAlt,
 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiJquery } from "react-icons/si";
+import { SiJquery, SiNextdotjs } from "react-icons/si";
 import { TbBrandVercel } from "react-icons/tb";
+import Transition from "../components/Transition";
 const Skils = () => {
   const skils = [
     { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
@@ -20,12 +21,16 @@ const Skils = () => {
     { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
     { name: "jQuery", icon: <SiJquery className="text-blue-500" /> },
     { name: "React", icon: <FaReact className="text-blue-500" /> },
+      { name: "Next.js", icon: <SiNextdotjs className="text-gray-900" /> },
     { name: "Git", icon: <FaGitAlt className="text-orange-500" /> },
     { name: "GitHub", icon: <FaGithub className="text-gray-800" /> },
     { name: "Vercel", icon: <TbBrandVercel className="text-black" /> },
   ];
 
   return (
+    <Transition>
+
+  
     <div className="min-h-screen bg-gradient-to-br from-white to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10">
@@ -67,7 +72,8 @@ const Skils = () => {
         <div className="absolute top-20 left-10 w-32 h-32 bg-blue-400/5 rounded-full blur-xl"></div>
         <div className="absolute bottom-20 right-10 w-40 h-40 bg-blue-400/5 rounded-full blur-xl"></div>
       </div>
-    </div>
+    </div> 
+     </Transition>
   );
 };
 
