@@ -151,7 +151,7 @@ function SomeProjects() {
             {projectsData.map((project) => (
               <a
                 href={project.link}
-                target="_blank"
+                
                 key={project.id}
                 className=" animation rounded-3xl overflow-hidden  shadow-md  relative transition-all duration-[.3s] hover:scale-[1.02] "
               >
@@ -182,14 +182,14 @@ function SomeProjects() {
                   <div className=" p-2 flex flex-col md:flex-row items-center justify-center gap-4 text-center bg-[#000000de] text-amber-50 text-xl w-[100%]">
                     <a
                       href={project.git}
-                      target="_blank"
+                      
                       className="border-3 w-[60%] md:w-[45%] px-2 py-0.5 rounded-3xl text-blue-500 bg-white capitalize flex items-center gap-2"
                     >
                       <FaGithub /> git hub
                     </a>
                     <a
                       href={project.link}
-                      target="_blank"
+                      
                       className="px-2 py-0.5 w-[60%] md:w-[45%] rounded-3xl border-2 bg-blue-500 text-white capitalize flex items-center gap-2"
                     >
                       {" "}

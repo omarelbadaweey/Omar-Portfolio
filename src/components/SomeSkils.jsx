@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  FaBootstrap,
   FaCss3Alt,
   FaGithub,
   FaHtml5,
@@ -15,10 +16,12 @@ function SomeSkils() {
   const skills = [
     { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
     { name: "CSS3", icon: <FaCss3Alt className="text-blue-400" /> },
+    { name: "Bootstrap", icon: <FaBootstrap className="text-purple-600" /> },
     { name: "Tailwind", icon: <RiTailwindCssFill className="text-sky-800" /> },
     { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
     { name: "React", icon: <FaReact className="text-blue-500" /> },
     { name: "Next.js", icon: <SiNextdotjs className="text-gray-900" /> },
+      { name: "GitHub", icon: <FaGithub className="text-gray-800" /> },
   ];
   return (
     <div>
@@ -31,7 +34,7 @@ function SomeSkils() {
           {skills.map((skill) => (
             <div
               key={skill.name}
-              className="flex flex-col items-center bg-white rounded-xl shadow-md w-[150px] p-5 hover:scale-105 transition-transform "
+              className="flex flex-col items-center bg-white rounded-xl shadow-md w-[130px] p-5 hover:scale-105 transition-transform "
             >
               <span className="text-4xl mb-2">{skill.icon}</span>
               <span className="text-base font-semibold text-gray-700">

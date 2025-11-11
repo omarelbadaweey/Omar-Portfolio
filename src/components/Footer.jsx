@@ -5,6 +5,15 @@ import { FaRegCopyright } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-r bg-[#001a35] text-white py-20 md:py-6 ">
+      <div className="fixed bottom-4 left-4 z-50">
+        <a
+          href="https://wa.me/33773093800"
+          className="border-3 border-white outline-3 outline-green-500 block animate-bounce cursor-pointer bg-green-500 hover:bg-green-600 text-white p-1 rounded-full shadow-lg transition-all duration-300"
+        >
+          <FaWhatsapp className="text-3xl" />
+        </a>
+      </div>
+      {/*  */}
       <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-center md:text-left">
           <span className="font-semibold flex items-center gap-2">

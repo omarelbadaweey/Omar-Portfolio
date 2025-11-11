@@ -7,6 +7,7 @@ import {
   FaGithub,
   FaSass,
   FaGitAlt,
+  FaBootstrap,
 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiJquery, SiNextdotjs } from "react-icons/si";
@@ -17,6 +18,7 @@ const Skils = () => {
     { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
     { name: "CSS3", icon: <FaCss3Alt className="text-blue-400" /> },
     { name: "Sass", icon: <FaSass className="text-pink-500" /> },
+     { name: "Bootstrap", icon: <FaBootstrap className="text-purple-600" /> },
     { name: "Tailwind", icon: <RiTailwindCssFill className="text-sky-800" /> },
     { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
     { name: "jQuery", icon: <SiJquery className="text-blue-500" /> },

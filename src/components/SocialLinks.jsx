@@ -42,7 +42,7 @@ const SocialLinks = () => {
         <a
           key={index}
           href={link.url}
-          target="_blank"
+          
           className={`
               group relative flex items-center justify-center 
               w-13 h-13 rounded-full bg-white shadow-lg
