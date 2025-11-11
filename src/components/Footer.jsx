@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-gradient-to-r bg-[#001a35] text-white py-20 md:py-6 ">
       <div className="fixed bottom-4 left-4 z-50">
         <a
-          href="https://wa.me/33773093800"
+          href="https://api.whatsapp.com/send/?phone=01008790584&text&type=phone_number&app_absent=0"
           className="border-3 border-white outline-3 outline-green-500 block animate-bounce cursor-pointer bg-green-500 hover:bg-green-600 text-white p-1 rounded-full shadow-lg transition-all duration-300"
         >
           <FaWhatsapp className="text-3xl" />
