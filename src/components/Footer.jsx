@@ -1,19 +1,46 @@
-import React from "react";
-import { FaGithub, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import React, { useEffect, useState } from "react";
+import { FaGithub, FaFacebook, FaWhatsapp, FaArrowUp } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa6";
 
 const Footer = () => {
+    const [showButton, setShowBtn] = useState(false);
+  useEffect(() => {
+    const handelScroll = () => {
+      if (window.scrollY > 150) {
+        setShowBtn(true);
+      } else {
+        setShowBtn(false);
+      }
+    };
+    window.addEventListener("scroll", handelScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handelScroll);
+    };
+  }, []);
+
+  const backtop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <footer className="bg-gradient-to-r bg-[#001a35] text-white py-20 md:py-6 ">
+<<<<<<< HEAD
       <div className="fixed bottom-4 left-4 z-50">
         <a
           href="https://api.whatsapp.com/send/?phone=01008790584&text&type=phone_number&app_absent=0"
           className="border-3 border-white outline-3 outline-green-500 block animate-bounce cursor-pointer bg-green-500 hover:bg-green-600 text-white p-1 rounded-full shadow-lg transition-all duration-300"
+=======
+    
+          {showButton && (
+        <button
+          onClick={backtop}
+          className="cursor-pointer fixed right-5 bottom-5 w-11 h-11 mx-auto flex justify-center items-center bg-blue-400 border-3 border-white outline-3 outline-blue-400 text-2xl rounded-full text-white"
+>>>>>>> 24c1e4c (update styles)
         >
-          <FaWhatsapp className="text-3xl" />
-        </a>
-      </div>
-      {/*  */}
+          <FaArrowUp />
+        </button>
+      )}  {/*  */}
       <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-center md:text-left">
           <span className="font-semibold flex items-center gap-2">
@@ -37,7 +64,7 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://api.whatsapp.com/send/?phone=01008790584&text&type=phone_number&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=201008790584&text&type=phone_number&app_absent=0"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-yellow-300 text-2xl transition-colors duration-300"

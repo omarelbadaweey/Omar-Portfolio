@@ -10,7 +10,18 @@ function Form() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("تم إرسال رسالتك بنجاح!");
+
+    const phone = "201008790584";
+    const text = `
+الاسم: ${form.name}
+الايميل: ${form.email}
+الرسالة: ${form.message}
+    `;
+
+    const url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(text);
+
+    window.open(url, "_blank");
+
     setForm({ name: "", email: "", message: "" });
   };
 
@@ -31,6 +42,7 @@ function Form() {
               required
               className="border border-blue-200 rounded-lg py-3 px-4 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
+
             <input
               type="email"
               name="email"
@@ -40,6 +52,7 @@ function Form() {
               required
               className="border border-blue-200 rounded-lg py-3 px-4 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
+
             <textarea
               name="message"
               placeholder="رسالتك"
@@ -49,9 +62,10 @@ function Form() {
               rows={5}
               className="border border-blue-200 rounded-lg py-3 px-4 focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none"
             />
+
             <button
               type="submit"
-              className="bg-blue-400 text-xl hover:text-blue-400 hover:before:bg-white overflow-hidden border-2 border-blue-400  btn-anmi text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-colors duration-300"
+              className="bg-blue-400 text-xl hover:text-blue-400 hover:before:bg-white overflow-hidden border-2 border-blue-400 btn-anmi text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-colors duration-300"
             >
               Send
             </button>

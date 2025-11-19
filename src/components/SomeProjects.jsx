@@ -11,10 +11,131 @@ import { MdOutlineLiveTv } from "react-icons/md";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import { SiNextdotjs } from "react-icons/si";
 
 const projectsData = [
   {
     id: 1,
+    title: "American-council",
+    category: "React",
+    link: "https://american-council.vercel.app/",
+    git: "https://github.com/omarelbadaweey/american-council",
+    languages: [
+      {
+        icon: <FaHtml5 />,
+        lang: "html",
+        color: "text-red-400",
+        hover: "hover:text-red-400",
+      },
+      {
+        icon: <FaCss3Alt />,
+        lang: "css",
+        color: "text-blue-500",
+        hover: "hover:text-blue-500",
+      },
+      {
+        icon: <RiTailwindCssFill />,
+        lang: "tailwind",
+        color: "text-sky-400",
+        hover: "hover:text-sky-400",
+      },
+      {
+        icon: <IoLogoJavascript />,
+        lang: "java script ",
+        color: "text-yellow-400",
+        hover: "hover:text-yellow-400",
+      },
+      {
+        icon: <FaReact />,
+        lang: "React js ",
+        color: "text-blue-700",
+        hover: "hover:text-blue-700",
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    title: "next-store",
+    category: "Next",
+    link: "https://next-store-mu-drab.vercel.app/",
+    git: "https://github.com/omarelbadaweey/next-store",
+    languages: [
+      {
+        icon: <FaHtml5 />,
+        lang: "html",
+        color: "text-red-400",
+        hover: "hover:text-red-400",
+      },
+      {
+        icon: <FaCss3Alt />,
+        lang: "css",
+        color: "text-blue-500",
+        hover: "hover:text-blue-500",
+      },
+      {
+        icon: <RiTailwindCssFill />,
+        lang: "tailwind",
+        color: "text-sky-400",
+        hover: "hover:text-sky-400",
+      },
+      {
+        icon: <IoLogoJavascript />,
+        lang: "java script ",
+        color: "text-yellow-400",
+        hover: "hover:text-yellow-400",
+      },
+      {
+        icon: <FaReact />,
+        lang: "React js ",
+        color: "text-blue-700",
+        hover: "hover:text-blue-700",
+      },
+      {
+        icon: <SiNextdotjs />,
+        lang: "Next js ",
+        color: "text-white-500",
+        hover: "hover:text-gray-900",
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    title: "badawey-store",
+    category: "JS",
+    link: "https://badawey-store.vercel.app/",
+    git: "https://github.com/omarelbadaweey/Badawey-Store",
+    languages: [
+      {
+        icon: <FaHtml5 />,
+        lang: "html",
+        color: "text-red-400",
+        hover: "hover:text-red-400",
+      },
+      {
+        icon: <FaCss3Alt />,
+        lang: "css",
+        color: "text-blue-500",
+        hover: "hover:text-blue-500",
+      },
+      {
+        icon: <RiTailwindCssFill />,
+        lang: "tailwind",
+        color: "text-sky-400",
+        hover: "hover:text-sky-400",
+      },
+      {
+        icon: <IoLogoJavascript />,
+        lang: "java script ",
+        color: "text-yellow-400",
+        hover: "hover:text-yellow-400",
+      },
+    ],
+  },
+
+  {
+    id: 4,
     title: "omar-ecommece",
     category: "React",
     link: "https://omar-ecommece.vercel.app/",
@@ -52,90 +173,6 @@ const projectsData = [
       },
     ],
   },
-
-  {
-    id: 2,
-    title: "LEVEL",
-    category: "JS",
-    link: "https://omarelbadaweey.github.io/LEVEL/",
-    git: "https://github.com/omarelbadaweey/LEVEL",
-    languages: [
-      {
-        icon: <FaHtml5 />,
-        lang: "html",
-        color: "text-red-400",
-        hover: "hover:text-red-400",
-      },
-      {
-        icon: <FaCss3Alt />,
-        lang: "css",
-        color: "text-blue-500",
-        hover: "hover:text-blue-500",
-      },
-      {
-        icon: <FaBootstrap />,
-        lang: "bootstrap",
-        color: "text-purple-600",
-        hover: "hover:text-purple-600",
-      },
-      {
-        icon: <IoLogoJavascript />,
-        lang: "java script ",
-        color: "text-yellow-400",
-        hover: "hover:text-yellow-400",
-      },
-    ],
-  },
-
-  {
-    id: 3,
-    title: "Abo-mancy",
-    category: "CSS",
-    link: "https://www.abo-mansy.com/",
-    git: "https://github.com/omarelbadaweey?tab=repositories",
-    languages: [
-      {
-        icon: <FaHtml5 />,
-        lang: "html",
-        color: "text-red-400",
-        hover: "hover:text-red-400",
-      },
-      {
-        icon: <FaCss3Alt />,
-        lang: "css",
-        color: "text-blue-500",
-        hover: "hover:text-blue-500",
-      },
-      {
-        icon: <FaBootstrap />,
-        lang: "bootstrap",
-        color: "text-purple-600",
-        hover: "hover:text-purple-600",
-      },
-    ],
-  },
-
-  {
-    id: 4,
-    title: "Anime",
-    category: "CSS",
-    link: "https://omarelbadaweey.github.io/-Anime/",
-    git: "https://github.com/omarelbadaweey/-Anime",
-    languages: [
-      {
-        icon: <FaHtml5 />,
-        lang: "html",
-        color: "text-red-400",
-        hover: "hover:text-red-400",
-      },
-      {
-        icon: <FaCss3Alt />,
-        lang: "css",
-        color: "text-blue-500",
-        hover: "hover:text-blue-500",
-      },
-    ],
-  },
 ];
 
 function SomeProjects() {
@@ -146,12 +183,11 @@ function SomeProjects() {
           Some Projects
         </h2>
 
-        <div className="max-w-5xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-2 md:px-6">
           <div className="grid p-6  grid-cols-1 md:grid-cols-2 gap-8 mt-10 ">
             {projectsData.map((project) => (
               <a
                 href={project.link}
-                
                 key={project.id}
                 className=" animation rounded-3xl overflow-hidden  shadow-md  relative transition-all duration-[.3s] hover:scale-[1.02] "
               >
@@ -182,14 +218,12 @@ function SomeProjects() {
                   <div className=" p-2 flex flex-col md:flex-row items-center justify-center gap-4 text-center bg-[#000000de] text-amber-50 text-xl w-[100%]">
                     <a
                       href={project.git}
-                      
                       className="border-3 w-[60%] md:w-[45%] px-2 py-0.5 rounded-3xl text-blue-500 bg-white capitalize flex items-center gap-2"
                     >
                       <FaGithub /> git hub
                     </a>
                     <a
                       href={project.link}
-                      
                       className="px-2 py-0.5 w-[60%] md:w-[45%] rounded-3xl border-2 bg-blue-500 text-white capitalize flex items-center gap-2"
                     >
                       {" "}

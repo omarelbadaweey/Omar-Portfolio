@@ -26,7 +26,7 @@ const SocialLinks = () => {
     },
     {
       name: "Whats app",
-      url: "https://api.whatsapp.com/send/?phone=01008790584&text&type=phone_number&app_absent=0",
+      url: "https://api.whatsapp.com/send/?phone=201008790584&text&type=phone_number&app_absent=0",
       icon: <FaWhatsapp />,
     },
     {
@@ -37,7 +37,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="flex flex-wrap justify-center gap-4 md:gap-6 max-w-xl mx-auto lg:mx-[0_0]">
+    <div className="flex flex-wrap justify-center gap-3 md:gap-6 max-w-xl mx-auto lg:mx-[0_0]">
       {socialLinks.map((link, index) => (
         <a
           key={index}

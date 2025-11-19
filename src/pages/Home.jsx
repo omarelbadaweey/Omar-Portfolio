@@ -9,7 +9,7 @@ import Form from "../components/Form";
 function Home() {
   return (
     <Transition>
-      <div className="overflow-x-hidden">
+      <div className="">
         <Hero />
         <MyDetails />
         <SomeSkils />
