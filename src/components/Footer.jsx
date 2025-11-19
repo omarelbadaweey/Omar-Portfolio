@@ -25,18 +25,11 @@ const Footer = () => {
 
   return (
     <footer className="bg-gradient-to-r bg-[#001a35] text-white py-20 md:py-6 ">
-<<<<<<< HEAD
-      <div className="fixed bottom-4 left-4 z-50">
-        <a
-          href="https://api.whatsapp.com/send/?phone=01008790584&text&type=phone_number&app_absent=0"
-          className="border-3 border-white outline-3 outline-green-500 block animate-bounce cursor-pointer bg-green-500 hover:bg-green-600 text-white p-1 rounded-full shadow-lg transition-all duration-300"
-=======
     
           {showButton && (
         <button
           onClick={backtop}
           className="cursor-pointer fixed right-5 bottom-5 w-11 h-11 mx-auto flex justify-center items-center bg-blue-400 border-3 border-white outline-3 outline-blue-400 text-2xl rounded-full text-white"
->>>>>>> 24c1e4c (update styles)
         >
           <FaArrowUp />
         </button>
