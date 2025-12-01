@@ -13,6 +13,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiJquery, SiNextdotjs } from "react-icons/si";
 import { TbBrandVercel } from "react-icons/tb";
 import Transition from "../components/Transition";
+import Back from "../components/Back";
 const Skils = () => {
   const skils = [
     { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
@@ -31,9 +32,9 @@ const Skils = () => {
 
   return (
     <Transition>
-
+<Back/>
   
-    <div className="min-h-screen bg-gradient-to-br from-white to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-white to-gray-100 py-18 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10">
           <h2 className="text-3xl font-extrabold text-[#00264e] sm:text-3xl sm:tracking-tight lg:text-5xl">

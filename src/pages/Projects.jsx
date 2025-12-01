@@ -11,6 +11,7 @@ import { MdOutlineLiveTv } from "react-icons/md";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiNextdotjs } from "react-icons/si";
+import Back from "../components/Back";
 
 const projectsData = [
   {
@@ -731,6 +732,51 @@ const projectsData = [
       },
     ],
   },
+  {
+    id: 21,
+    title: "MX-Store",
+    category: "Next",
+    link: "https://mx-blond.vercel.app/",
+    git: "https://github.com/omarelbadaweey/MX",
+    languages: [
+      {
+        icon: <FaHtml5 />,
+        lang: "html",
+        color: "text-red-400",
+        hover: "hover:text-red-400",
+      },
+      {
+        icon: <FaCss3Alt />,
+        lang: "css",
+        color: "text-blue-500",
+        hover: "hover:text-blue-500",
+      },
+      {
+        icon: <RiTailwindCssFill />,
+        lang: "tailwind",
+        color: "text-sky-400",
+        hover: "hover:text-sky-400",
+      },
+      {
+        icon: <IoLogoJavascript />,
+        lang: "java script ",
+        color: "text-yellow-400",
+        hover: "hover:text-yellow-400",
+      },
+      {
+        icon: <FaReact />,
+        lang: "React js ",
+        color: "text-blue-700",
+        hover: "hover:text-blue-700",
+      },
+      {
+        icon: <SiNextdotjs />,
+        lang: "Next js ",
+        color: "text-white-500",
+        hover: "hover:text-gray-900",
+      },
+    ],
+  },
 ];
 
 const categories = ["All", "CSS", "JS", "React" , 'Next'];
@@ -745,6 +791,7 @@ function Projects() {
 
   return (
     <Transition>
+      <Back/>
       <section className="py-4 min-h-[100vh]  ">
         <div className="max-w-5xl mx-auto px-6">
           <div className="fixed top-[40px] pb-3 left-[50%] translate-x-[-50%] bg-gradient-to-br from-blue-50 via-gray-150 to-gray-100 w-[100%]  z-100">

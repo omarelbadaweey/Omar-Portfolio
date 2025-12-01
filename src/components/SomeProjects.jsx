@@ -100,12 +100,46 @@ const projectsData = [
     ],
   },
 
+  // {
+  //   id: 3,
+  //   title: "badawey-store",
+  //   category: "JS",
+  //   link: "https://badawey-store.vercel.app/",
+  //   git: "https://github.com/omarelbadaweey/Badawey-Store",
+  //   languages: [
+  //     {
+  //       icon: <FaHtml5 />,
+  //       lang: "html",
+  //       color: "text-red-400",
+  //       hover: "hover:text-red-400",
+  //     },
+  //     {
+  //       icon: <FaCss3Alt />,
+  //       lang: "css",
+  //       color: "text-blue-500",
+  //       hover: "hover:text-blue-500",
+  //     },
+  //     {
+  //       icon: <RiTailwindCssFill />,
+  //       lang: "tailwind",
+  //       color: "text-sky-400",
+  //       hover: "hover:text-sky-400",
+  //     },
+  //     {
+  //       icon: <IoLogoJavascript />,
+  //       lang: "java script ",
+  //       color: "text-yellow-400",
+  //       hover: "hover:text-yellow-400",
+  //     },
+  //   ],
+  // },
+
   {
     id: 3,
-    title: "badawey-store",
-    category: "JS",
-    link: "https://badawey-store.vercel.app/",
-    git: "https://github.com/omarelbadaweey/Badawey-Store",
+    title: "MX-Store",
+    category: "Next",
+    link: "https://mx-blond.vercel.app/",
+    git: "https://github.com/omarelbadaweey/MX",
     languages: [
       {
         icon: <FaHtml5 />,
@@ -130,6 +164,18 @@ const projectsData = [
         lang: "java script ",
         color: "text-yellow-400",
         hover: "hover:text-yellow-400",
+      },
+      {
+        icon: <FaReact />,
+        lang: "React js ",
+        color: "text-blue-700",
+        hover: "hover:text-blue-700",
+      },
+      {
+        icon: <SiNextdotjs />,
+        lang: "Next js ",
+        color: "text-white-500",
+        hover: "hover:text-gray-900",
       },
     ],
   },
