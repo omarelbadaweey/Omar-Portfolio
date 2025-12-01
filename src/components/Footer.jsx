@@ -49,8 +49,8 @@ const Footer = () => {
         </div>
         <div className="flex gap-5">
           <a
-            href="https://github.com/omarelbadaweey?tab=repositories"
-            target="_blank"
+            href="https://github.com/omarelbadaweey"
+          
             rel="noopener noreferrer"
             className="hover:text-yellow-300 text-2xl transition-colors duration-300"
           >
@@ -58,7 +58,7 @@ const Footer = () => {
           </a>
           <a
             href="https://api.whatsapp.com/send/?phone=201008790584&text&type=phone_number&app_absent=0"
-            target="_blank"
+          
             rel="noopener noreferrer"
             className="hover:text-yellow-300 text-2xl transition-colors duration-300"
           >
@@ -66,7 +66,7 @@ const Footer = () => {
           </a>
           <a
             href="https://www.facebook.com/?locale=ar_AR"
-            target="_blank"
+          
             rel="noopener noreferrer"
             className="hover:text-yellow-300 text-2xl transition-colors duration-300"
           >

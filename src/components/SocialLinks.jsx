@@ -31,7 +31,7 @@ const SocialLinks = () => {
     },
     {
       name: "GitHub",
-      url: "https://github.com/omarelbadaweey?tab=repositories",
+      url: "https://github.com/omarelbadaweey",
       icon: <FaGithub />,
     },
   ];
